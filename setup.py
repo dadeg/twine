@@ -85,4 +85,7 @@ setup(
             'keyring',
         ],
     },
+    setup_requires=[
+        'setuptools_scm >= 1.15',
+    ],
 )
